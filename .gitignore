@@ -44,6 +44,8 @@ jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
+node_modules
+
 
 # TypeScript cache
 *.tsbuildinfo
@@ -128,3 +130,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+

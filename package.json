@@ -1,0 +1,45 @@
+{
+  "name": "practice-nodejs",
+  "version": "1.0.0",
+  "description": "Practice nodejs",
+  "main": "index.js",
+  "bin": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "natnat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "fastify": "^4.12.0",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.2",
+    "pm2": "^5.2.2",
+    "pm2-windows-service": "^0.2.1",
+    "socket.io": "^4.6.1",
+    "swagger-express-router": "latest",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "pkg": {
+    "assets": [
+      "./node_modules/**/*",
+      "./api/**/*"
+    ]
+  }
+}
